@@ -191,7 +191,7 @@ model = densesharp.get_compiled(output_size=2,
                                 loss_weights={"clf": 1., "seg": 0.2},
                                 weight_decay=0)
 
-filepath="best_weight.h5"    
+filepath="best_weight_sharp.h5"    
 save_folder='test'
 
 
